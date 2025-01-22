@@ -10,5 +10,10 @@ A link to the article is available [here](FILL).
 This README file provides an overview of the replications materials for the article. The [Data](https://github.com/svallejovera/gender_inst_speeches#data) section describes the main dataset required to reproduce the tables and figures in the paper. The [Code](https://github.com/svallejovera/gender_inst_speeches#Analysis) section provides the code necessary to run different masking techniques, and to replicate Figure 1 in the main text. 
 
 ## Data
-  
+
+XXXXX: text data used to further pre-train a RoBERTa model, as in XXXX.py. 
+XXXXX: training set to fine-tune a machine-learning model, as in XXXX.py.
+
 ## Code
+
+XXXX.py to run selective masking during further pre-training of a RoBERTa model. In cell 12 we provide the two lines of code required to change the masking rate, and selectiely mask at that rate custom tokens. XXXX.py to run further pre-training of a RoBERTa model at a masking rate determined by the user. In cell 12 we provide the parameter required to change the masking rate. XXXX.py to run fine-tune a the further pre-trained model from XXXX.py or XXXX.py. XXXX.py to read the results from XXXX.py and order them in table format. 
