@@ -11,8 +11,8 @@ This README file provides an overview of the replications materials for the arti
 
 ## Data
 
-- `XXXX`: text data used to further pre-train a RoBERTa model, as in XXXX.py.
-- `XXXX`: training set to fine-tune a machine-learning model, as in XXXX.py.
+- `XXXX`: text data used to further pre-train a RoBERTa model, as in `/code/pt_sel_mask.ipynb`.
+- `/data/fake_news_covid.xlsx`: training set to fine-tune a machine-learning model, as in `/code/ft_from_pt.ipynb`.
 
 ## Code
 
