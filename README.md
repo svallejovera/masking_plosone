@@ -11,9 +11,12 @@ This README file provides an overview of the replications materials for the arti
 
 ## Data
 
-XXXXX: text data used to further pre-train a RoBERTa model, as in XXXX.py. 
-XXXXX: training set to fine-tune a machine-learning model, as in XXXX.py.
+- `XXXX`: text data used to further pre-train a RoBERTa model, as in XXXX.py.
+- `XXXX`: training set to fine-tune a machine-learning model, as in XXXX.py.
 
 ## Code
 
-XXXX.py to run selective masking during further pre-training of a RoBERTa model. In cell 12 we provide the two lines of code required to change the masking rate, and selectiely mask at that rate custom tokens. XXXX.py to run further pre-training of a RoBERTa model at a masking rate determined by the user. In cell 12 we provide the parameter required to change the masking rate. XXXX.py to run fine-tune a the further pre-trained model from XXXX.py or XXXX.py. XXXX.py to read the results from XXXX.py and order them in table format. 
+- `XXXX.py` to run selective masking during further pre-training of a RoBERTa model. In cell 12 we provide the two lines of code required to change the masking rate, and selectiely mask at that rate custom tokens.
+- `XXXX.py` to run further pre-training of a RoBERTa model at a masking rate determined by the user. In cell 12 we provide the parameter required to change the masking rate.
+- `XXXX.py` to fine-tune the further pre-trained model from XXXX.py or XXXX.py.
+- `XXXX.py` to read the results from XXXX.py and order them in table format. 
