@@ -7,7 +7,7 @@ Replication materials for "Behind the Mask: Random and Selective Masking in Tran
 
 A link to the article is available [here](FILL).
 
-This README file provides an overview of the replications materials for the article. The [Data](https://github.com/svallejovera/gender_inst_speeches#data) section describes the main dataset required to reproduce the tables and figures in the paper. The [Code](https://github.com/svallejovera/gender_inst_speeches#Analysis) section provides the code necessary to run different masking techniques, and to replicate Figure 1 in the main text. 
+This README file provides an overview of the replications materials for the article. The [Data](https://github.com/svallejovera/masking_plosone#data) section describes the main dataset required to reproduce the tables and figures in the paper. The [Code](https://github.com/svallejovera/masking_plosone#code) section provides the code necessary to run different masking techniques, and to replicate Figure 1 in the main text. 
 
 ## Data
 
