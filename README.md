@@ -16,7 +16,8 @@ This README file provides an overview of the replications materials for the arti
 
 ## Code
 
-- `XXXX.py` to run selective masking during further pre-training of a RoBERTa model. In cell 12 we provide the two lines of code required to change the masking rate, and selectiely mask at that rate custom tokens.
-- `XXXX.py` to run further pre-training of a RoBERTa model at a masking rate determined by the user. In cell 12 we provide the parameter required to change the masking rate.
-- `XXXX.py` to fine-tune the further pre-trained model from XXXX.py or XXXX.py.
-- `XXXX.py` to read the results from XXXX.py and order them in table format. 
+- `/code/pt_sel_mask.ipynb` to run selective masking during further pre-training of a RoBERTa model. In cell 12 we provide the two lines of code required to change the masking rate, and selectively mask at that rate custom tokens.
+- `/code/pt_custom.ipynb` to run further pre-training of a RoBERTa model at a masking rate determined by the user. In cell 12 we provide the parameter required to change the masking rate.
+- `/code/ft_from_pt.ipynb` to fine-tune the further pre-trained model from `/code/pt_sel_mask.ipynb` or `/code/pt_custom.ipynb`.
+- `/code/helper_functions.py` required to run `/code/ft_from_pt.ipynb`.
+- `/code/read_results.py` to read the results from `/code/ft_from_pt.ipynb` and order them in table format. 
